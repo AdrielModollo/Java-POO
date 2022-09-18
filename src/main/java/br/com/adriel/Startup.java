@@ -6,5 +6,7 @@ public class Startup {
 		v[0] = new Video("O Senhor dos Anéis");
 		v[1] = new Video("Vingadores");
 		v[2] = new Video("Spider Man");
+		
+		System.out.println(v[0].toString());
 	}
 }
