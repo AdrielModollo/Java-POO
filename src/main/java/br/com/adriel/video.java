@@ -62,7 +62,7 @@ public class Video implements AcoesVideo {
 
 	@Override
 	public void pause() {
-
+		this.reproduzindo = false;
 	}
 
 	@Override
