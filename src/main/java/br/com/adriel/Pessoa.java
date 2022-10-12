@@ -4,7 +4,7 @@ public abstract class Pessoa {
 	protected String nome;
 	protected int idade;
 	protected String sexo;
-	protected float experience;
+	protected float experience = 0;
 	
 	public String getNome() {
 		return nome;
