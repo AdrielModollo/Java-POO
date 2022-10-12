@@ -40,3 +40,12 @@ COMERNada
 2. Conceito de Herança no momento em que implementamos pessoa, usuario e video
 3. Conceito de polimorfismo no momento que implementamos com toString o retorno do usuário com a Herança de pessoa.
 
+### Getter and Setters
+
+Getters = Retorna o valor da função 
+  ```
+    get cpf () {
+        return this.data.cpf
+    }
+  ```
+
