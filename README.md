@@ -63,3 +63,7 @@ Utilizar "extends", dessa forma conseguimos herdas os valores.
 public class Usuario extends Pessoa
 ```
 
+### Implements
+
+Utilizado quando uma classe implementa uma interface
+
