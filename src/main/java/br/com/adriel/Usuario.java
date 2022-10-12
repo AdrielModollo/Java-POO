@@ -22,4 +22,11 @@ public class Usuario extends Pessoa {
 	public void setTotalViews(int totalViews) {
 		this.totalViews = totalViews;
 	}
+
+	@Override
+	public String toString() {
+		return "Usuario{" + super.toString() + "\n[login=" + login + ", totalViews=" + totalViews + "]}";
+	}
+	
+	
 }
