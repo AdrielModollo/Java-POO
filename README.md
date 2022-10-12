@@ -55,4 +55,11 @@ Setters = Atribuí um valor
           this.data[ 'cpf' ] = value
     }
   ```
+  
+### Herança
+
+Utilizar "extends", dessa forma conseguimos herdas os valores.
+```
+public class Usuario extends Pessoa
+```
 
