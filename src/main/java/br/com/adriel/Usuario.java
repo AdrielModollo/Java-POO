@@ -4,6 +4,10 @@ public class Usuario extends Pessoa {
 	private String login;
 	private int totalViews;
 	
+	public Usuario(String nome, int idade, String sexo, String login) {
+		super(nome, idade, sexo);
+	}
+	
 	public String getLogin() {
 		return login;
 	}
