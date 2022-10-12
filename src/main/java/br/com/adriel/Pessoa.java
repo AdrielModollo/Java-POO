@@ -6,6 +6,13 @@ public abstract class Pessoa {
 	protected String sexo;
 	protected float experience = 0;
 	
+	public Pessoa(String nome, int idade, String sexo) {
+		this.nome = nome;
+		this.idade = idade;
+		this.sexo = sexo;
+		this.experience = 0;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
