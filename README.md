@@ -49,3 +49,10 @@ Getters = Retorna o valor da função
     }
   ```
 
+Setters = Atribuí um valor 
+  ```
+    set cpf (value) {
+          this.data[ 'cpf' ] = value
+    }
+  ```
+
