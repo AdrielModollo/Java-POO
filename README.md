@@ -34,3 +34,9 @@ COMERNada
 
 -Natural (Mais fácil de entender. Você se preocupa mais na funcionalidade do que os detalhes de implementação)
 
+#O que foi aplicado no projeto
+
+1. Conceito de encapsulamento, manter a visibilidade e getters and setters.
+2. Conceito de Herança no momento em que implementamos pessoa, usuario e video
+3. Conceito de polimorfismo no momento que implementamos com toString o retorno do usuário com a Herança de pessoa.
+
