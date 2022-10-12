@@ -67,3 +67,7 @@ public class Usuario extends Pessoa
 
 Utilizado quando uma classe implementa uma interface
 
+```
+ public class Video implements AcoesVideo
+```
+
