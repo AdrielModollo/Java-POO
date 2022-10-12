@@ -57,7 +57,7 @@ public class Video implements AcoesVideo {
 
 	@Override
 	public void play() {
-
+		this.reproduzindo = true;
 	}
 
 	@Override
