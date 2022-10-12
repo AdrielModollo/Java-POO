@@ -5,7 +5,9 @@ public class Usuario extends Pessoa {
 	private int totalViews;
 	
 	public Usuario(String nome, int idade, String sexo, String login) {
-		super(nome, idade, sexo);
+		super(nome, idade, sexo);	
+		this.login = login;
+		this.totalViews = 0;
 	}
 	
 	public String getLogin() {
