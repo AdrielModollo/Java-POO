@@ -11,12 +11,13 @@ public class Visualizacao {
 		this.filme.setViews(this.filme.getViews() + 1);
 	}
 	
+	//sobrecarga
 	public void avaliar() {
-		
+		this.filme.setAvaliacao(5);
 	}
 	
 	public void avaliar(int nota) {
-		
+
 	}
 	
 	public void avaliar(float porc) {
