@@ -71,3 +71,6 @@ Utilizado quando uma classe implementa uma interface
  public class Video implements AcoesVideo
 ```
 
+### Polimorfismo
+
+Utilizamos to.String() para herdar os dados de Pessoa com modificações. Essa é a diferença do Polimorfismo, pois permite herdarmos dados e modificar o resultado final!
