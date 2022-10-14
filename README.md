@@ -34,9 +34,43 @@ COMERNada
 
 -Natural (Mais fácil de entender. Você se preocupa mais na funcionalidade do que os detalhes de implementação)
 
-#O que foi aplicado no projeto
+### O que foi aplicado no projeto
 
 1. Conceito de encapsulamento, manter a visibilidade e getters and setters.
 2. Conceito de Herança no momento em que implementamos pessoa, usuario e video
 3. Conceito de polimorfismo no momento que implementamos com toString o retorno do usuário com a Herança de pessoa.
 
+### Getter and Setters
+
+Getters = Retorna o valor da função 
+  ```
+    get cpf () {
+        return this.data.cpf
+    }
+  ```
+
+Setters = Atribuí um valor 
+  ```
+    set cpf (value) {
+          this.data[ 'cpf' ] = value
+    }
+  ```
+  
+### Herança
+
+Utilizar "extends", dessa forma conseguimos herdas os valores.
+```
+public class Usuario extends Pessoa
+```
+
+### Implements
+
+Utilizado quando uma classe implementa uma interface
+
+```
+ public class Video implements AcoesVideo
+```
+
+### Polimorfismo
+
+Utilizamos to.String() para herdar os dados de Pessoa com modificações. Essa é a diferença do Polimorfismo, pois permite herdarmos dados e modificar o resultado final!
