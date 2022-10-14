@@ -18,7 +18,10 @@ public class Visualizacao {
 	public void avaliar(int nota) {
 		
 	}
-
+	
+	public void avaliar(float porc) {
+		
+	}
 	
 	public Usuario getEspectador() {
 		return espectador;
