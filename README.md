@@ -74,3 +74,55 @@ Utilizado quando uma classe implementa uma interface
 ### Polimorfismo
 
 Utilizamos to.String() para herdar os dados de Pessoa com modificações. Essa é a diferença do Polimorfismo, pois permite herdarmos dados e modificar o resultado final!
+
+### POO
+
+#### Utilizando objeto
+
+Objeto é a classe utilizado para definir um conjunto de métodos e atributos. Exemplo: 
+
+```
+public class notebook {
+}
+```
+
+#### Utilizado atributos
+
+Atributos são caracteristicas, exemplo: um nootebook possuí teclado, monitor, processador, touch, etc... Então podemos criar uma classe notebook com esses atributos...
+
+```
+  public class notebook {
+     public String teclado;
+     public String monitor;
+     public String processador;
+     public String touch;
+  }
+```
+
+#### Utilizando métodos
+
+Métodos são ações que atribuímos para cada atributo dentro de um objeto. 
+
+```
+  public class notebook {
+     public String teclado;
+     public String monitor;
+     public String processador;
+     public String touch;
+     
+     void ligar {
+        if(monitor === true){
+          System.out.println("Tela iniciada")
+        }   
+     }
+     
+     void cursor {
+        if(touch === true){
+          System.out.println("Você já pode interagir com o cursor");
+        }
+     }
+  }
+
+```
+
+Obs: Esses exemplos são bem simples, claro que não retrata um cenário real, caso fossemos compor a inicialização por exemplo de um notebook!
