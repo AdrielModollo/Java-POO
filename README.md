@@ -74,3 +74,18 @@ Utilizado quando uma classe implementa uma interface
 ### Polimorfismo
 
 Utilizamos to.String() para herdar os dados de Pessoa com modificações. Essa é a diferença do Polimorfismo, pois permite herdarmos dados e modificar o resultado final!
+
+### POO
+
+#### Utilizado atributos
+
+Atributos são caracteristicas, exemplo: nootebook possuí teclado, monitor, processador, touch, etc... Então podemos criar uma classe notebook com esses atributos...
+
+```
+  public class notebook {
+     public String teclado;
+     public String monitor;
+     public String processador;
+     public String touch;
+  }
+```
