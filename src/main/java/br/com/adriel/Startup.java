@@ -12,9 +12,13 @@ public class Startup {
 		g[1] = new Usuario("Adriel", 26, "M", "Dri");
 
 		Visualizacao vis[] = new Visualizacao[5];
+		
 		vis[0] = new Visualizacao(g[0], v[1]);
+		vis[0].avaliar(); //nota 5
 		System.out.println(vis[0].toString());
+		
 		vis[1] = new Visualizacao(g[1], v[2]);
+		vis[1].avaliar(87.0f);
 		System.out.println(vis[1].toString());
 		
 		/*
