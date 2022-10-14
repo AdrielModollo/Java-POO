@@ -77,9 +77,18 @@ Utilizamos to.String() para herdar os dados de Pessoa com modificações. Essa �
 
 ### POO
 
+### Utilizando objeto
+
+Objeto é a classe utilizado para definir um conjunto de métodos e atributos. Exemplo: 
+
+```
+public class notebook {
+}
+```
+
 #### Utilizado atributos
 
-Atributos são caracteristicas, exemplo: nootebook possuí teclado, monitor, processador, touch, etc... Então podemos criar uma classe notebook com esses atributos...
+Atributos são caracteristicas, exemplo: um nootebook possuí teclado, monitor, processador, touch, etc... Então podemos criar uma classe notebook com esses atributos...
 
 ```
   public class notebook {
