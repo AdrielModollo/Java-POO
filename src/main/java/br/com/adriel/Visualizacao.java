@@ -15,6 +15,9 @@ public class Visualizacao {
 		
 	}
 	
+	public void avaliar(int nota) {
+		
+	}
 
 	
 	public Usuario getEspectador() {
