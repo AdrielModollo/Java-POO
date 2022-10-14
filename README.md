@@ -98,3 +98,31 @@ Atributos são caracteristicas, exemplo: um nootebook possuí teclado, monitor, 
      public String touch;
   }
 ```
+
+#### Utilizando métodos
+
+Métodos são ações que atribuímos para cada atributo dentro de um objeto. 
+
+```
+  public class notebook {
+     public String teclado;
+     public String monitor;
+     public String processador;
+     public String touch;
+     
+     void ligar {
+        if(monitor === true){
+          System.out.println("Tela iniciada")
+        }   
+     }
+     
+     void cursor {
+        if(touch === true){
+          System.out.println("Você já pode interagir com o cursor");
+        }
+     }
+  }
+
+```
+
+Obs: Esses exemplos são bem simples, claro que não retrata um cenário real, caso fossemos compor a inicialização por exemplo de um notebook!
