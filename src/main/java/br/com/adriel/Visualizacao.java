@@ -11,6 +11,12 @@ public class Visualizacao {
 		this.filme.setViews(this.filme.getViews() + 1);
 	}
 	
+	public void avaliar() {
+		
+	}
+	
+
+	
 	public Usuario getEspectador() {
 		return espectador;
 	}
