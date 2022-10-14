@@ -8,7 +8,7 @@ public class Visualizacao {
 		this.espectador = espectador;
 		this.filme = filme;
 		this.espectador.setTotalViews(this.espectador.getTotalViews() + 1);
-	
+		this.filme.setViews(this.filme.getViews() + 1);
 	}
 	
 	public Usuario getEspectador() {
