@@ -21,6 +21,11 @@ public class Visualizacao {
 	public void setFilme(Video filme) {
 		this.filme = filme;
 	}
+
+	@Override
+	public String toString() {
+		return "Visualizacao [espectador=" + espectador + ", filme=" + filme + "]";
+	}
 	
 	
 }
