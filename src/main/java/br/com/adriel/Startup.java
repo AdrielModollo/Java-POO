@@ -11,7 +11,13 @@ public class Startup {
 		g[0] = new Usuario("Marina", 16, "F", "Mah");
 		g[1] = new Usuario("Adriel", 26, "M", "Dri");
 		
-		System.out.println(g[0].toString());
+		System.out.println("Videos\n================");
 		System.out.println(v[0].toString());
+		System.out.println(v[1].toString());
+		System.out.println(v[2].toString());
+		
+		System.out.println("\nUsuários\n================");
+		System.out.println(g[0].toString());
+
 	}
 }
