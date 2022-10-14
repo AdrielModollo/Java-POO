@@ -11,6 +11,9 @@ public class Startup {
 		g[0] = new Usuario("Marina", 16, "F", "Mah");
 		g[1] = new Usuario("Adriel", 26, "M", "Dri");
 
+		Visualizacao vis = new Visualizacao(g[0], v[1]);
+		System.out.println(vis.toString());
+		
 		/*
 		System.out.println("Videos\n================");
 		System.out.println(v[0].toString());
