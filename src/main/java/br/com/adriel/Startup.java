@@ -18,6 +18,6 @@ public class Startup {
 		
 		System.out.println("\nUsuários\n================");
 		System.out.println(g[0].toString());
-
+		System.out.println(g[1].toString());
 	}
 }
