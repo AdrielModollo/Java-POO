@@ -4,6 +4,11 @@ public class Visualizacao {
 	private Usuario espectador;
 	private Video filme;
 	
+	public Visualizacao(Usuario espectador, Video filme) {
+		this.espectador = espectador;
+		this.filme = filme;
+	}
+	
 	public Usuario getEspectador() {
 		return espectador;
 	}
